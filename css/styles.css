@@ -952,7 +952,8 @@ img {
     cursor: pointer;
 }
 
-.form-input:focus-within {
+.form-input:focus-within,
+.form-input:hover {
     border-color: var(--accent-link-color);
 }
 
@@ -1001,7 +1002,8 @@ img {
     color: rgba(117, 117, 117, 0.5);
 }
 
-.comment-text:focus-within {
+.comment-text:focus-within,
+.comment-text:hover {
     border-color: var(--accent-link-color);
 }
 
