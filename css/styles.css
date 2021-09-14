@@ -122,7 +122,7 @@ img {
     align-items: center;
 }
 
-.header__navigation {
+.header__nav {
     display: flex;
     align-items: center;
     margin-left: 0;
@@ -148,15 +148,15 @@ img {
     color: #000000;
 }
 
-.header__list {
+.site-nav__list {
     display: flex;
 }
 
-.header__item:not(:last-child) {
+.site-nav__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.header__link {
+.site-nav__link {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     position: relative;
@@ -172,16 +172,16 @@ img {
     color: var(--secondary-text-color);
 }
 
-.header__link:hover,
-.header__link:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
     color: var(--accent-link-color);
 }
 
-.header__link--active-page {
+.site-nav__link--active {
     color: var(--accent-link-color);
 }
 
-.header__link--active-page::after {
+.site-nav__link--active::after {
     content: "";
     position: absolute;
     bottom: -1px;
@@ -706,12 +706,15 @@ img {
 
 /* -------Левая секция футера------- */
 
-.contacts {
+.footer__contacts {
     margin: 0px 70px 0px 0px;
     align-self: baseline;
 }
 
 .footer__logo {
+    display: block;
+    margin-bottom: 20px;
+
     color: var(--accent-link-color);
 }
 
@@ -720,8 +723,6 @@ img {
 }
 
 .contacts__address {
-    margin-top: 20px;
-
     font-style: normal;
 }
 
