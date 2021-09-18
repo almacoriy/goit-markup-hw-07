@@ -23,6 +23,11 @@
 	letter-spacing: 0.02em;
 
 	color: var(--main-text-color);
+
+	&:hover,
+	&:focus {
+		color: var(--accent-link-color);
+	}
 }
 
 .header-contacts__icon {
@@ -31,14 +36,9 @@
 	margin-right: 10px;
 
 	fill: currentColor;
-}
 
-.header-contacts__link:hover,
-.header-contacts__link:focus {
-	color: var(--accent-link-color);
-}
-
-.header-contacts__link:hover .header-contacts__icon,
-.header-contacts__link:focus .header-contacts__icon {
-	fill: currentColor;
+	.header-contacts__link:hover &,
+	.header-contacts__link:focus & {
+		fill: currentColor;
+	}
 }

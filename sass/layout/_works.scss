@@ -19,10 +19,10 @@
 	width: 370px;
 	margin-left: 0;
 	margin-right: 0;
-}
 
-.works__item:not(:last-child) {
-	margin-right: 30px;
+	&:not(:last-child) {
+		margin-right: 30px;
+	}
 }
 
 .works__label {

@@ -8,11 +8,9 @@
 	margin-bottom: calc(-1 * var(--card-set-gap));
 }
 
-.card-set__item-margin.card-set__item {
+.card-set__item--margin {
 	flex-basis: calc(100% / 3 - var(--card-set-gap));
-}
 
-.card-set__item-margin {
 	margin-right: var(--card-set-gap);
 	margin-bottom: var(--card-set-gap);
 }

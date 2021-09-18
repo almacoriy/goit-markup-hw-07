@@ -19,14 +19,14 @@
 
 	border: 2px solid var(--secondary-text-color);
 	border-radius: 2px;
-}
 
-.checkbox:checked + .checkbox__icon {
-	border-color: var(--accent-link-color);
-	background-color: var(--accent-link-color);
-	fill: var(--secondary-icon-color);
+	.checkbox:checked + & {
+		border-color: var(--accent-link-color);
+		background-color: var(--accent-link-color);
+		fill: var(--secondary-icon-color);
 
-	background-origin: border-box;
+		background-origin: border-box;
+	}
 }
 
 .checkbox__label {

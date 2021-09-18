@@ -5,10 +5,10 @@
 .socials__item {
 	width: 44px;
 	height: 44px;
-}
 
-.socials__item:not(:last-child) {
-	margin-right: 10px;
+	&:not(:last-child) {
+		margin-right: 10px;
+	}
 }
 
 .socials__link {
@@ -19,12 +19,17 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	&:hover,
+	&:focus {
+		background-color: var(--accent-link-color);
+	}
 }
 
-.socials__link:hover,
-.socials__link:focus {
-	background-color: var(--accent-link-color);
-}
+// .socials__link:hover,
+// .socials__link:focus {
+// 	background-color: var(--accent-link-color);
+// }
 
 .socials__icon {
 	margin-left: 0;
