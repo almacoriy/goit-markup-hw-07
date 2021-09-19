@@ -1,6 +1,7 @@
 .nav__list {
-	display: flex;
-	justify-content: center;
+	@extend %list;
+	@include centeredFlex();
+
 	margin-bottom: 50px;
 }
 
@@ -18,11 +19,8 @@
 
 	padding: 6px 22px;
 
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.62;
+	@include font(500, 16px, 26px);
 	text-align: center;
-	letter-spacing: 0.03em;
 	background-color: var(--secondary-bg-color);
 	color: #212121;
 

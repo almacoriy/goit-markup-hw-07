@@ -4,8 +4,7 @@
 }
 
 .header__container {
-	display: flex;
-	align-items: center;
+	@include centeredFlex();
 }
 
 .header__nav {
@@ -16,6 +15,8 @@
 }
 
 .header__logo {
+	@extend %link;
+
 	margin-right: 93px;
 	padding-top: 24px;
 	padding-bottom: 25px;

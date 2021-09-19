@@ -1,6 +1,5 @@
 .checkbox {
-	display: flex;
-	align-items: center;
+	@include centeredFlex();
 
 	margin-bottom: 30px;
 	padding-left: 10px;
@@ -30,12 +29,10 @@
 }
 
 .checkbox__label {
-	display: inline-flex;
-	align-items: center;
+	@include centeredFlex();
 
-	font-size: 14px;
-	line-height: 1.71;
-	letter-spacing: 0.03em;
+	@include font(400, 14px, 24px);
+
 	color: var(--main-text-color);
 }
 

@@ -3,15 +3,12 @@
 }
 
 .comment__text {
+	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	width: 100%;
 	height: 120px;
 	padding: 12px 16px;
 
-	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-	font-size: 14px;
-	line-height: 1.71;
-	letter-spacing: 0.03em;
+	@include font(500, 14px, 24px);
 
 	color: #2e2e2e;
 
@@ -23,9 +20,7 @@
 	cursor: pointer;
 
 	&::placeholder {
-		font-size: 12px;
-		line-height: 1.14;
-		letter-spacing: 0.01em;
+		@include font(400, 12px, 14px, 0.01em);
 
 		color: rgba(117, 117, 117, 0.5);
 	}
