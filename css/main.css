@@ -817,8 +817,9 @@ img {
 
 .footer-contacts__adds {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.71429;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
 }
@@ -829,8 +830,9 @@ img {
 
 .footer-contacts__mail {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.71429;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
 }
@@ -841,8 +843,9 @@ img {
 
 .footer-contacts__tel {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.71429;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
 }

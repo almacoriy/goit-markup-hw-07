@@ -20,12 +20,11 @@
 @mixin footerAddressItem($addressList) {
 	@each $addressItem in $addressList {
 		.footer-contacts__#{$addressItem} {
-			@extend %link;
 			transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-			font-size: 14px;
-			line-height: 1.71;
-			letter-spacing: 0.03em;
+			@extend %link;
+			@include font(400, 14px, 24px);
+
 			color: var(--third-text-color);
 
 			&:hover,
