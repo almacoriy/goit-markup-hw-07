@@ -9,7 +9,9 @@
 	margin-right: auto;
 	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
 		url(../images/background-header.jpg);
+	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 }
 
 .hero__title {
@@ -21,8 +23,3 @@
 	text-transform: uppercase;
 	color: var(--third-text-color);
 }
-
-// .hero__button {
-// 	display: block;
-// 	margin: 0 auto;
-// }
